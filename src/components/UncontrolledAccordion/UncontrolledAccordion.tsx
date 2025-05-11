@@ -13,7 +13,8 @@ export const UncontrolledAccordion = (props: AccordionProps) => {
 
     return (
         <>
-            <AccordionTitle title={props.title} /> <button onClick={() => {setCollapsed(!collapsed)}}>TOGGLE</button>
+            <AccordionTitle title={props.title} />
+            <button onClick={() => {setCollapsed(!collapsed)}}>TOGGLE</button>
             {!collapsed && <AccordionBody />}
         </>
     )
