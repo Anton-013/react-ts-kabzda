@@ -6,7 +6,7 @@ import { OnOff } from './components/OnOff/OnOff'
 import { Rating, ValueType } from './components/Rating/Rating'
 import { UncontrolledAccordion } from './components/UncontrolledAccordion/UncontrolledAccordion'
 import { UncontrolledRating } from './components/UncontrolledRating/UncontrolledRating'
-import { ControlledInputWithFixedValue, GetValueOfUncontrolledInputBuButtonPress, TrackValueOfUncontrolledInput, UncontrolledInput } from './components/input/Input'
+import { ControlledCheckbox, ControlledInput, ControlledInputWithFixedValue, ControlledSelect, GetValueOfUncontrolledInputBuButtonPress, TrackValueOfUncontrolledInput, UncontrolledInput } from './components/input/Input'
 
 function App() {
   console.log("App")
@@ -20,11 +20,14 @@ function App() {
       <OnOff />
       <UncontrolledRating />
       <Rating value={ratingValue} onClick={setRatingValue} />
-      <Accordion collapsed={accordionCollapsed} onClick={setAccordionCollapsed} title='menu'/> */}
+      <Accordion collapsed={accordionCollapsed} onClick={setAccordionCollapsed} title='menu'/>
       <UncontrolledInput />
       <TrackValueOfUncontrolledInput/>
       <GetValueOfUncontrolledInputBuButtonPress/>
-      <ControlledInputWithFixedValue/>
+      <ControlledInputWithFixedValue/> */}
+      <ControlledInput />
+      <ControlledCheckbox />
+      <ControlledSelect />
     </>
   )
 }
