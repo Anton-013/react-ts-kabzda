@@ -1,5 +1,4 @@
 import type { Meta } from '@storybook/react'
-import { action } from '@storybook/addon-action'
 
 import { Accordion } from './Accordion'
 import { useState } from 'react'
