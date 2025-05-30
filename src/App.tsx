@@ -16,18 +16,7 @@ function App() {
 
   return (
     <>
-      {/* <UncontrolledAccordion title={"Menu"} />
-      <OnOff />
-      <UncontrolledRating />
-      <Rating value={ratingValue} onClick={setRatingValue} />
-      <Accordion collapsed={accordionCollapsed} onClick={setAccordionCollapsed} title='menu'/>
-      <UncontrolledInput />
-      <TrackValueOfUncontrolledInput/>
-      <GetValueOfUncontrolledInputBuButtonPress/>
-      <ControlledInputWithFixedValue/> */}
-      <ControlledInput />
-      <ControlledCheckbox />
-      <ControlledSelect />
+      <Accordion onClick={(value)=>{alert('some item was clicked. Value: ' + value)}} collapsed={accordionCollapsed} items={[{title: 'Dimych', value: 1}, {title: 'Valera', value: 2}, {title: 'Artem', value: 3}, {title: 'Viktor', value: 4}]} onChange={setAccordionCollapsed} title={'Users'} />
     </>
   )
 }
