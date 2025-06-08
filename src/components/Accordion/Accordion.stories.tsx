@@ -13,30 +13,33 @@ export default meta
 
 export const CollapsedAccordion = () => {
     return (
-        <Accordion
-            title='CollapsedAccordion'
-            collapsed={true}
-            onClick={() => { }} />
+        <></>
+        // <Accordion 
+        //     title='CollapsedAccordion'
+        //     collapsed={true}
+        //     onClick={() => { }} />
     )
 }
 
 export const OpenedAccordion = () => {
     return (
-        <Accordion
-            title='OpenedAccordion'
-            collapsed={false}
-            onClick={() => { }} />
+        <></>
+        // <Accordion
+        //     title='OpenedAccordion'
+        //     collapsed={false}
+        //     onClick={() => { }} />
     )
 }
 
 export const AccordionDemo = () => {
     const [collapsed, setCollapsed] = useState(false)
     return (
-        <Accordion
-            title='Accordion'
-            collapsed={collapsed}
-            onClick={() => {
-                setCollapsed(!collapsed)
-            }} />
+        <></>
+        // <Accordion
+        //     title='Accordion'
+        //     collapsed={collapsed}
+        //     onClick={() => {
+        //         setCollapsed(!collapsed)
+        //     }} />
     )
 }
