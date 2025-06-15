@@ -1,7 +1,5 @@
 import type { Meta } from '@storybook/react'
-
 import { Accordion } from './Accordion'
-import { useState } from 'react'
 
 const meta: Meta<typeof Accordion> = {
     component: Accordion,
@@ -32,7 +30,7 @@ export const OpenedAccordion = () => {
 }
 
 export const AccordionDemo = () => {
-    const [collapsed, setCollapsed] = useState(false)
+    // const [collapsed, setCollapsed] = useState(false)
     return (
         <></>
         // <Accordion

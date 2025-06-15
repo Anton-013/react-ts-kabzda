@@ -1,5 +1,6 @@
 import './App.css'
 import { UncontrolledAccordion } from './components/UncontrolledAccordion/UncontrolledAccordion'
+import { Example } from './Example'
 
 function App() {
   console.log("App")
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       <UncontrolledAccordion title='Users'/>
-
+      <Example/>
     </>
   )
 }
